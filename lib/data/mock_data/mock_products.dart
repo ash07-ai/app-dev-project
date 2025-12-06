@@ -1,0 +1,61 @@
+import '../models/product.dart';
+
+class MockProducts {
+  static final List<Product> products = [
+    Product(
+      id: '1',
+      name: 'Wireless Headphones',
+      description: 'High-quality wireless headphones with noise cancellation',
+      price: 99.99,
+      imageUrl: 'https://picsum.photos/200/300?random=1',
+      category: 'Electronics',
+      rating: 4.5,
+      reviewCount: 128,
+      inStock: true,
+    ),
+    Product(
+      id: '2',
+      name: 'Smartphone',
+      description: 'Latest model with high-resolution camera and fast processor',
+      price: 799.99,
+      imageUrl: 'https://picsum.photos/200/300?random=2',
+      category: 'Electronics',
+      rating: 4.8,
+      reviewCount: 256,
+      inStock: true,
+    ),
+    Product(
+      id: '3',
+      name: 'Running Shoes',
+      description: 'Comfortable running shoes with excellent support',
+      price: 79.99,
+      imageUrl: 'https://picsum.photos/200/300?random=3',
+      category: 'Sports',
+      rating: 4.3,
+      reviewCount: 95,
+      inStock: true,
+    ),
+    Product(
+      id: '4',
+      name: 'Coffee Maker',
+      description: 'Automatic coffee maker with timer and multiple settings',
+      price: 49.99,
+      imageUrl: 'https://picsum.photos/200/300?random=4',
+      category: 'Home',
+      rating: 4.0,
+      reviewCount: 87,
+      inStock: true,
+    ),
+    Product(
+      id: '5',
+      name: 'Laptop',
+      description: 'Powerful laptop for work and gaming',
+      price: 1299.99,
+      imageUrl: 'https://picsum.photos/200/300?random=5',
+      category: 'Electronics',
+      rating: 4.7,
+      reviewCount: 189,
+      inStock: true,
+    ),
+  ];
+}
